@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 14px;
+  color: #333;
+  font-family: "微软雅黑";
+}
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+  display: block;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+}
+a {
+  outline: none;
+}
+a:active {
+  outline: none;
+}
+a:focus {
+  outline: none;
+}
+input {
+  outline: none;
+}
+input[type="text"] {
+  padding-left: 8px;
+}
+input[type="password"] {
+  padding-left: 8px;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+label {
+  cursor: pointer;
+}
+textarea {
+  outline: none;
+  padding-left: 8px;
+}
+button {
+  outline: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+p {
+  line-height: 24px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ov {
+  clear: both;
+  overflow: hidden;
+}

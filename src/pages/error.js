@@ -1,8 +1,11 @@
-import React from 'react';
-export default class error extends React.Component{
+// import {FormattedMessage} from 'react-intl';
+export default  ({ }) => (
     render(){
         return(
-            <h2>404</h2>
+            <div>
+                // <FormattedMessage id='login.YouChallenge'/>
+                <h2>404</h2>
+            </div>
         );
     }
-}
+);
